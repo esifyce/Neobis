@@ -9,7 +9,7 @@ func arrSortedBy(array: [String]) -> [String] {
     var temp = [String]()
     
     // sorting with ascending number search
-    temp = array.sorted { $0.filter { "0" <= $0 && $0 <= "9" } <                        $1.filter { "0" <= $0 && $0 <= "9" } }
+    temp = array.sorted { $0.filter { "0" <= $0 && $0 <= "9" } <  $1.filter { "0" <= $0 && $0 <= "9" } }
     return temp
 }
 
@@ -17,6 +17,7 @@ func arrSortedBy(array: [String]) -> [String] {
 var arrWithInfo = ["is2 Thi1s T4est 3a",
                    "4of Fo1r pe6ople g3ood th5e the2",
                    ""]
+
 // array for write separate string in words
 var arrSeparateOnWord = [String]()
 
