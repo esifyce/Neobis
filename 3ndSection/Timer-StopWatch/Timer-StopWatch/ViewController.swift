@@ -141,7 +141,7 @@ class ViewController: UIViewController {
     }()
     
     // list ours elements view
-    private lazy var imagesViews = [timerImageView, segmentedControlView, clockLabelView, stopButtonView, pauseButtonView, playButtonView, datePickerView]
+    private lazy var listLayoutViews = [timerImageView, segmentedControlView, clockLabelView, stopButtonView, pauseButtonView, playButtonView, datePickerView]
     
     // MARK: - lifecycle vc
     
@@ -151,7 +151,7 @@ class ViewController: UIViewController {
         view.backgroundColor = .yellow
         
         // pass to every elements for show on screen
-        let _ = imagesViews.compactMap { $0 }
+        let _ = listLayoutViews.compactMap { $0 }
         
         // first view timer therefore isHidden = true
         datePickerView.isHidden = true
