@@ -1,0 +1,6 @@
+framework module Pods_NavigationApp {
+  umbrella header "Pods-NavigationApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
