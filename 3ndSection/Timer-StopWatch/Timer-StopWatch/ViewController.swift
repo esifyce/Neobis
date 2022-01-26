@@ -168,19 +168,19 @@ class ViewController: UIViewController {
             datePickerView.isHidden = true
             
             // for replace new target
-            self.playButtonView.removeTarget(self, action: .none, for: .touchDown)
+            self.playButtonView.removeTarget(self, action: .none, for: .touchUpInside)
             
             // add new target
-            playButtonView.addTarget(self, action: #selector(startCountingTimer), for: .touchDown)
+            playButtonView.addTarget(self, action: #selector(startCountingTimer), for: .touchUpInside)
         default:
             timerImageView.image = UIImage(systemName: "stopwatch")
             datePickerView.isHidden = false
             
             // for replace new target
-            self.playButtonView.removeTarget(self, action: .none, for: .touchDown)
+            self.playButtonView.removeTarget(self, action: .none, for: .touchUpInside)
             
             // add new target
-            playButtonView.addTarget(self, action: #selector(startCountingStopwatch), for: .touchDown)
+            playButtonView.addTarget(self, action: #selector(startCountingStopwatch), for: .touchUpInside)
         }
     }
     
