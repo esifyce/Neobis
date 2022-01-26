@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         view.addSubview(imageView)
         
         imageView.snp.makeConstraints {
-            $0.top.equalToSuperview().inset(50)
+            $0.top.equalTo(view.safeAreaLayoutGuide).inset(20)
             $0.centerX.equalToSuperview()
             $0.width.height.equalTo(80)
         }
@@ -62,7 +62,6 @@ class ViewController: UIViewController {
         clockLabel.snp.makeConstraints {
             $0.centerX.equalToSuperview()
             $0.top.equalTo(segmentedControlView.snp.top).inset(50)
-            
         }
         return clockLabel
     }()
@@ -80,7 +79,8 @@ class ViewController: UIViewController {
         stopButton.snp.makeConstraints {
             $0.left.equalTo(40)
             $0.width.height.equalTo(80)
-            $0.bottom.equalToSuperview().inset(200)
+            $0.top.equalTo(datePickerView.snp.top).inset(20)
+            $0.bottom.greaterThanOrEqualTo(view.safeAreaLayoutGuide).inset(20)
             
         }
         return stopButton
@@ -99,7 +99,8 @@ class ViewController: UIViewController {
         pauseButton.snp.makeConstraints {
             $0.centerX.equalToSuperview()
             $0.width.height.equalTo(80)
-            $0.bottom.equalToSuperview().inset(200)
+            $0.top.equalTo(datePickerView.snp.top).inset(20)
+            $0.bottom.greaterThanOrEqualTo(view.safeAreaLayoutGuide).inset(20)
             
         }
         return pauseButton
@@ -118,7 +119,8 @@ class ViewController: UIViewController {
         playButton.snp.makeConstraints {
             $0.right.equalToSuperview().inset(40)
             $0.width.height.equalTo(80)
-            $0.bottom.equalToSuperview().inset(200)
+            $0.top.equalTo(datePickerView.snp.top).inset(20)
+            $0.bottom.greaterThanOrEqualTo(view.safeAreaLayoutGuide).inset(20)
             
         }
         return playButton
@@ -155,8 +157,6 @@ class ViewController: UIViewController {
         
         // first view timer therefore isHidden = true
         datePickerView.isHidden = true
-        
-        
     }
     
     // MARK: - Active @objc func
