@@ -79,8 +79,8 @@ class TimerStopWatchViewController: UIViewController {
         stopButton.snp.makeConstraints {
             $0.left.equalTo(40)
             $0.width.height.equalTo(80)
-            $0.top.equalTo(datePickerView.snp.top).inset(20)
-            $0.bottom.greaterThanOrEqualTo(view.safeAreaLayoutGuide).inset(20)
+            $0.top.equalTo(datePickerView.snp.bottom).offset(10)
+          //  $0.bottom.greaterThanOrEqualTo(view.safeAreaLayoutGuide).inset(20)
         }
         return stopButton
     }()
@@ -98,8 +98,8 @@ class TimerStopWatchViewController: UIViewController {
         pauseButton.snp.makeConstraints {
             $0.centerX.equalToSuperview()
             $0.width.height.equalTo(80)
-            $0.top.equalTo(datePickerView.snp.top).inset(20)
-            $0.bottom.greaterThanOrEqualTo(view.safeAreaLayoutGuide).inset(20)
+            $0.top.equalTo(datePickerView.snp.bottom).offset(10)
+        //    $0.bottom.greaterThanOrEqualTo(view.safeAreaLayoutGuide).inset(20)
         }
         return pauseButton
     }()
@@ -117,8 +117,8 @@ class TimerStopWatchViewController: UIViewController {
         playButton.snp.makeConstraints {
             $0.right.equalToSuperview().inset(40)
             $0.width.height.equalTo(80)
-            $0.top.equalTo(datePickerView.snp.top).inset(20)
-            $0.bottom.greaterThanOrEqualTo(view.safeAreaLayoutGuide).inset(20)
+            $0.top.equalTo(datePickerView.snp.bottom).offset(10)
+          //  $0.bottom.greaterThanOrEqualTo(view.safeAreaLayoutGuide).inset(20)
         }
         return playButton
     }()
