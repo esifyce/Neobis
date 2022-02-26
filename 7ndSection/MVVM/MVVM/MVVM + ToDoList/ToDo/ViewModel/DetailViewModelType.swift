@@ -1,5 +1,5 @@
 //
-//  EditViewModel.swift
+//  DetailViewModelType.swift
 //  ToDoList
 //
 //  Created by Sabir Myrzaev on 21.02.2022.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-class EditViewModel: DetailViewModelType {
+class DetailViewModelType: DetailViewModelType {
     
     private var task: Task
     
