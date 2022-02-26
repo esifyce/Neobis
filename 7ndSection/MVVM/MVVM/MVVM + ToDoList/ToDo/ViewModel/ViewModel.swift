@@ -50,7 +50,7 @@ class ViewModel: TableViewModelType {
     // to get a cell by selected
     func viewModelForSelectedRow() -> DetailViewModelType? {
         guard let selectedIndexPath = selectedIndexPath else { return nil }
-        return EditViewModel(task: tasks[selectedIndexPath.row])
+        return DetailViewModelType(task: tasks[selectedIndexPath.row])
     }
 
     // choice row
