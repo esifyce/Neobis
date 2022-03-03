@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		602BD55927D0EE4D00E59489 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602BD55727D0EE4D00E59489 /* Main.storyboard */; };
+		602BD55E27D0EE4F00E59489 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602BD55C27D0EE4F00E59489 /* LaunchScreen.storyboard */; };
+		602BD56D27D0EEC200E59489 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BD56627D0EEC200E59489 /* TabBarController.swift */; };
+		602BD56E27D0EEC200E59489 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BD56827D0EEC200E59489 /* Service.swift */; };
+		602BD56F27D0EEC200E59489 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BD56927D0EEC200E59489 /* Extensions.swift */; };
+		602BD57027D0EEC200E59489 /* YandexMapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BD56B27D0EEC200E59489 /* YandexMapsController.swift */; };
+		602BD57427D0EECA00E59489 /* AppleMapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BD57327D0EECA00E59489 /* AppleMapsController.swift */; };
+		602BD57727D0EECE00E59489 /* GoogleMapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BD57627D0EECE00E59489 /* GoogleMapsController.swift */; };
+		602BD57C27D0EED300E59489 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602BD57927D0EED300E59489 /* Assets.xcassets */; };
+		602BD57D27D0EED300E59489 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BD57A27D0EED300E59489 /* AppDelegate.swift */; };
+		602BD57E27D0EED300E59489 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602BD57B27D0EED300E59489 /* SceneDelegate.swift */; };
+		DB3371C9101E262773DBCF67 /* Pods_AppleGoogleYandexMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8618722659447D4817C1AF4B /* Pods_AppleGoogleYandexMaps.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21149E812F7530A896F5599C /* Pods-AppleGoogleYandexMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleGoogleYandexMaps.debug.xcconfig"; path = "Target Support Files/Pods-AppleGoogleYandexMaps/Pods-AppleGoogleYandexMaps.debug.xcconfig"; sourceTree = "<group>"; };
+		602BD54E27D0EE4D00E59489 /* AppleGoogleYandexMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleGoogleYandexMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		602BD55827D0EE4D00E59489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		602BD55D27D0EE4F00E59489 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		602BD55F27D0EE4F00E59489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		602BD56627D0EEC200E59489 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		602BD56827D0EEC200E59489 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		602BD56927D0EEC200E59489 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		602BD56B27D0EEC200E59489 /* YandexMapsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YandexMapsController.swift; sourceTree = "<group>"; };
+		602BD57327D0EECA00E59489 /* AppleMapsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleMapsController.swift; sourceTree = "<group>"; };
+		602BD57627D0EECE00E59489 /* GoogleMapsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapsController.swift; sourceTree = "<group>"; };
+		602BD57927D0EED300E59489 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		602BD57A27D0EED300E59489 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		602BD57B27D0EED300E59489 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8618722659447D4817C1AF4B /* Pods_AppleGoogleYandexMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleGoogleYandexMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AB9AF0F03A13D028DCDC1C3 /* Pods-AppleGoogleYandexMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleGoogleYandexMaps.release.xcconfig"; path = "Target Support Files/Pods-AppleGoogleYandexMaps/Pods-AppleGoogleYandexMaps.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		602BD54B27D0EE4D00E59489 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3371C9101E262773DBCF67 /* Pods_AppleGoogleYandexMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		602BD54527D0EE4C00E59489 = {
+			isa = PBXGroup;
+			children = (
+				602BD55027D0EE4D00E59489 /* AppleGoogleYandexMaps */,
+				602BD54F27D0EE4D00E59489 /* Products */,
+				8BE7D3120752436F5A73CBCD /* Pods */,
+				A4B2B183390D6A74946B53DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		602BD54F27D0EE4D00E59489 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				602BD54E27D0EE4D00E59489 /* AppleGoogleYandexMaps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		602BD55027D0EE4D00E59489 /* AppleGoogleYandexMaps */ = {
+			isa = PBXGroup;
+			children = (
+				602BD56527D0EEC200E59489 /* TabBarController */,
+				602BD57227D0EECA00E59489 /* AppleMaps */,
+				602BD57527D0EECE00E59489 /* GoogleMaps */,
+				602BD56A27D0EEC200E59489 /* YandexMaps */,
+				602BD56727D0EEC200E59489 /* Utils */,
+				602BD57827D0EED300E59489 /* SupportingFiles */,
+				602BD55F27D0EE4F00E59489 /* Info.plist */,
+			);
+			path = AppleGoogleYandexMaps;
+			sourceTree = "<group>";
+		};
+		602BD56527D0EEC200E59489 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				602BD56627D0EEC200E59489 /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		602BD56727D0EEC200E59489 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				602BD56827D0EEC200E59489 /* Service.swift */,
+				602BD56927D0EEC200E59489 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		602BD56A27D0EEC200E59489 /* YandexMaps */ = {
+			isa = PBXGroup;
+			children = (
+				602BD56B27D0EEC200E59489 /* YandexMapsController.swift */,
+			);
+			path = YandexMaps;
+			sourceTree = "<group>";
+		};
+		602BD57227D0EECA00E59489 /* AppleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				602BD57327D0EECA00E59489 /* AppleMapsController.swift */,
+			);
+			path = AppleMaps;
+			sourceTree = "<group>";
+		};
+		602BD57527D0EECE00E59489 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				602BD57627D0EECE00E59489 /* GoogleMapsController.swift */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		602BD57827D0EED300E59489 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				602BD57A27D0EED300E59489 /* AppDelegate.swift */,
+				602BD57927D0EED300E59489 /* Assets.xcassets */,
+				602BD57B27D0EED300E59489 /* SceneDelegate.swift */,
+				602BD55727D0EE4D00E59489 /* Main.storyboard */,
+				602BD55C27D0EE4F00E59489 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		8BE7D3120752436F5A73CBCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21149E812F7530A896F5599C /* Pods-AppleGoogleYandexMaps.debug.xcconfig */,
+				8AB9AF0F03A13D028DCDC1C3 /* Pods-AppleGoogleYandexMaps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4B2B183390D6A74946B53DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8618722659447D4817C1AF4B /* Pods_AppleGoogleYandexMaps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		602BD54D27D0EE4D00E59489 /* AppleGoogleYandexMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 602BD56227D0EE4F00E59489 /* Build configuration list for PBXNativeTarget "AppleGoogleYandexMaps" */;
+			buildPhases = (
+				78C9409A4797076948B32F99 /* [CP] Check Pods Manifest.lock */,
+				602BD54A27D0EE4D00E59489 /* Sources */,
+				602BD54B27D0EE4D00E59489 /* Frameworks */,
+				602BD54C27D0EE4D00E59489 /* Resources */,
+				5A576D2EF97A4F272A558542 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleGoogleYandexMaps;
+			productName = AppleGoogleYandexMaps;
+			productReference = 602BD54E27D0EE4D00E59489 /* AppleGoogleYandexMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		602BD54627D0EE4C00E59489 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					602BD54D27D0EE4D00E59489 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 602BD54927D0EE4C00E59489 /* Build configuration list for PBXProject "AppleGoogleYandexMaps" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 602BD54527D0EE4C00E59489;
+			productRefGroup = 602BD54F27D0EE4D00E59489 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				602BD54D27D0EE4D00E59489 /* AppleGoogleYandexMaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		602BD54C27D0EE4D00E59489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602BD55E27D0EE4F00E59489 /* LaunchScreen.storyboard in Resources */,
+				602BD57C27D0EED300E59489 /* Assets.xcassets in Resources */,
+				602BD55927D0EE4D00E59489 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A576D2EF97A4F272A558542 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleGoogleYandexMaps/Pods-AppleGoogleYandexMaps-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleGoogleYandexMaps/Pods-AppleGoogleYandexMaps-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleGoogleYandexMaps/Pods-AppleGoogleYandexMaps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78C9409A4797076948B32F99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleGoogleYandexMaps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		602BD54A27D0EE4D00E59489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602BD57D27D0EED300E59489 /* AppDelegate.swift in Sources */,
+				602BD56D27D0EEC200E59489 /* TabBarController.swift in Sources */,
+				602BD57E27D0EED300E59489 /* SceneDelegate.swift in Sources */,
+				602BD57727D0EECE00E59489 /* GoogleMapsController.swift in Sources */,
+				602BD56F27D0EEC200E59489 /* Extensions.swift in Sources */,
+				602BD56E27D0EEC200E59489 /* Service.swift in Sources */,
+				602BD57427D0EECA00E59489 /* AppleMapsController.swift in Sources */,
+				602BD57027D0EEC200E59489 /* YandexMapsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		602BD55727D0EE4D00E59489 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602BD55827D0EE4D00E59489 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		602BD55C27D0EE4F00E59489 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				602BD55D27D0EE4F00E59489 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		602BD56027D0EE4F00E59489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		602BD56127D0EE4F00E59489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		602BD56327D0EE4F00E59489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21149E812F7530A896F5599C /* Pods-AppleGoogleYandexMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HDJX97Z93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppleGoogleYandexMaps/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need for correct using maps";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need for correct using maps";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esifyce.AppleGoogleYandexMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		602BD56427D0EE4F00E59489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB9AF0F03A13D028DCDC1C3 /* Pods-AppleGoogleYandexMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5HDJX97Z93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppleGoogleYandexMaps/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need for correct using maps";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need for correct using maps";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.esifyce.AppleGoogleYandexMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		602BD54927D0EE4C00E59489 /* Build configuration list for PBXProject "AppleGoogleYandexMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602BD56027D0EE4F00E59489 /* Debug */,
+				602BD56127D0EE4F00E59489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		602BD56227D0EE4F00E59489 /* Build configuration list for PBXNativeTarget "AppleGoogleYandexMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				602BD56327D0EE4F00E59489 /* Debug */,
+				602BD56427D0EE4F00E59489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 602BD54627D0EE4C00E59489 /* Project object */;
+}
