@@ -6,12 +6,21 @@
 //
 
 import Foundation
+import RealmSwift
 
-struct Translator {
-    let inputWord: String
-    let outputWord: String
-    let checkLanguage: Bool
+class Translator: Object {
+    static var wordsList = [Translator]()
+
+    @objc dynamic var inputWord: String = ""
+    @objc dynamic var outputWord: String = ""
+    @objc dynamic var checkLanguage: Bool = false
     
-    static var translatorList = [Translator]()
+    convenience init(input: String, output: String, check: Bool) {
+       self.init()
+        self.inputWord = input
+        self.outputWord = output
+        self.checkLanguage = check
+    }
 }
+
 
