@@ -326,9 +326,10 @@ class LanguageViewController: UIViewController {
                             self?.outputTextField.text = translation
                             guard let input = self?.inputTextField.text,
                                   let check = self?.checkLanguages else { return }
-                            Translator.translatorList.append(Translator(inputWord:  input,
-                                                                        outputWord: translation,
-                                                                        checkLanguage: check))
+                            
+                            Translator.wordsList.append(Translator(input: input,
+                                                                   output: translation,
+                                                                   check: check))
                         }
                     } else {
                         self.alertCollection.presentSingleButtonAlert(withTitle: "Translation", message: "Oops! It seems that something went wrong and translation cannot be done.", buttonTitle: "OK", actionHandler: {
